@@ -1124,7 +1124,7 @@ marquee {
 }
 .sidebar img {
     height: unset;
-    max-width: 100%!important
+    max-width: 90%!important
 }
 .main_column {
     margin: 0 310px 0 0
@@ -1663,8 +1663,11 @@ strong.mature + strong:before {
 strong.mature + strong + br + a {
     margin-left: 5px
 }
-.latest_torrents #title_container {
+.latest_torrents #title-container {
     display: none !important;
+}
+.latest_torrents {
+    text-align: center;
 }
 #footer {
     clear: both;
