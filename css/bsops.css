@@ -1663,6 +1663,9 @@ strong.mature + strong:before {
 strong.mature + strong + br + a {
     margin-left: 5px
 }
+.latest_torrents .title_container {
+    display: none;
+}
 #footer {
     clear: both;
     display: -webkit-box;
