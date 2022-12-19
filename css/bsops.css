@@ -1669,6 +1669,10 @@ strong.mature + strong + br + a {
 .latest_torrents {
     text-align: center;
 }
+.colhead_dark div button, .colhead_dark div input[type=button], .colhead_dark div input[type=submit] {
+    margin-top: 4px;
+    margin-right: 4px;
+}
 #footer {
     clear: both;
     display: -webkit-box;
