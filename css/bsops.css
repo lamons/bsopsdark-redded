@@ -4143,10 +4143,10 @@ li.graph {
     border-radius: 25px;
     -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, .3)!important;
     box-shadow: inset 0 1px 2px rgba(0, 0, 0, .3)!important;
-    height: 14px;
+    height: 8px;
     padding: 3px!important;
     position: relative;
-    background: #1a1a1a
+    background: #151515
 }
 #index li.graph {
     margin-left: auto;
@@ -4167,13 +4167,13 @@ li.graph {
     background-image: -webkit-linear-gradient(top, #d0e5b6, #d0e5b6);
     background-image: -o-linear-gradient(top, #d0e5b6, #d0e5b6);
     background-image: linear-gradient(180deg, #104336, #176854)*/
-    background: #a0c07b;
+    background: #90b169;
 }
 .center_poll,
 .center_poll:after {
-    border-bottom-left-radius: 16px;
+    border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
-    border-top-left-radius: 16px;
+    border-top-left-radius: 8px;
     border-top-right-radius: 8px
 }
 .center_poll:after {
