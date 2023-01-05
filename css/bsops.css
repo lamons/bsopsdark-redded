@@ -1812,6 +1812,10 @@ strong.mature + strong + br + a {
     }
     #userinfo_minor:before {
         content: "";
+        background: transparent;
+    }
+    #userinfo_minor:hover:before {
+        background-color: transparent;
     }
 }
 #userinfo_minor:hover {
@@ -2016,7 +2020,7 @@ ul#userinfo_username:not(:hover) > * {
 #nav_userinfo {
     height: 34px!important;
     visibility: visible!important;
-    width: 80px;
+/*    width: 80px;*/
     text-align: right !important;
 }
 #userinfo_username:hover li {
