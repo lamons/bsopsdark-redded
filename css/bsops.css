@@ -1093,6 +1093,9 @@ td.label {
 .thin {
     margin: 0 auto
 }
+#wiki div.linkbox {
+    text-align: left;
+}
 div.linkbox {
     margin-bottom: 5px;
     padding: 6px 4px;
