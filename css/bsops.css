@@ -1010,7 +1010,7 @@ marquee {
 }
 #concerts,
 #menu #nav_index,
-#menu #nav_irc,
+/*#menu #nav_irc,*/
 .linkbox a[href$="#concerts"] {
     display: none!important
 }
