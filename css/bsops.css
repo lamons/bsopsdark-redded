@@ -1883,6 +1883,7 @@ strong.mature + strong + br + a {
     color: #a0c07b
 }
 /*All the gradients for the user panel */
+/*
 #nav_inbox a {
     background-image: url(../assets/icons/Header-Messages-read.svg), -webkit-gradient(linear, right top, left top, from(#252525), color-stop(50%, #252525), color-stop(50%, #a0c07b), to(#a0c07b));
     background-image: url(../assets/icons/Header-Messages-read.svg), -webkit-linear-gradient(right, #252525, #252525 50%, #a0c07b 0, #a0c07b);
@@ -1907,17 +1908,23 @@ strong.mature + strong + br + a {
     background-image: url(../assets/icons/Header-Bookmark.svg), -o-linear-gradient(right, #252525, #252525 50%, #a0c07b 50%, #a0c07b);
     background-image: url(../assets/icons/Header-Bookmark.svg), linear-gradient(270deg, #252525, #252525 50%, #a0c07b 0, #a0c07b)
 }
-#nav_notifications a {
-    background-image: url(../assets/icons/Header-Notifications-read.svg), -webkit-gradient(linear, right top, left top, from(#252525), color-stop(50%, #252525), color-stop(50%, #a0c07b), to(#a0c07b));
-    background-image: url(../assets/icons/Header-Notifications-read.svg), -webkit-linear-gradient(right, #252525, #252525 50%, #a0c07b 0, #a0c07b);
-    background-image: url(../assets/icons/Header-Notifications-read.svg), -o-linear-gradient(right, #252525, #252525 50%, #a0c07b 50%, #a0c07b);
-    background-image: url(../assets/icons/Header-Notifications-read.svg), linear-gradient(270deg, #252525, #252525 50%, #a0c07b 0, #a0c07b)
+#nav_posts a {
+    background-image: url(../assets/icons/Header-Posts.svg), -webkit-gradient(linear, right top, left top, from(#252525), color-stop(50%, #252525), color-stop(50%, #a0c07b), to(#a0c07b));
+    background-image: url(../assets/icons/Header-Posts.svg), -webkit-linear-gradient(right, #252525, #252525 50%, #a0c07b 0, #a0c07b);
+    background-image: url(../assets/icons/Header-Posts.svg), -o-linear-gradient(right, #252525, #252525 50%, #a0c07b 50%, #a0c07b);
+    background-image: url(../assets/icons/Header-Posts.svg), linear-gradient(270deg, #252525, #252525 50%, #a0c07b 0, #a0c07b)
 }
 #nav_subscriptions a {
     background-image: url(../assets/icons/Header-Subscriptions-read.svg), -webkit-gradient(linear, right top, left top, from(#252525), color-stop(50%, #252525), color-stop(50%, #a0c07b), to(#a0c07b));
     background-image: url(../assets/icons/Header-Subscriptions-read.svg), -webkit-linear-gradient(right, #252525, #252525 50%, #a0c07b 0, #a0c07b);
     background-image: url(../assets/icons/Header-Subscriptions-read.svg), -o-linear-gradient(right, #252525, #252525 50%, #a0c07b 50%, #a0c07b);
     background-image: url(../assets/icons/Header-Subscriptions-read.svg), linear-gradient(270deg, #252525, #252525 50%, #a0c07b 0, #a0c07b)
+}
+#nav_subscriptions.new-subscriptions a {
+    background-image: url(../assets/icons/Header-Subscriptions-new-blue.svg), -webkit-gradient(linear, right top, left top, from(#252525), color-stop(50%, #252525), color-stop(50%, #a0c07b), to(#a0c07b));
+    background-image: url(../assets/icons/Header-Subscriptions-new-blue.svg), -webkit-linear-gradient(right, #252525, #252525 50%, #a0c07b 0, #a0c07b);
+    background-image: url(../assets/icons/Header-Subscriptions-new-blue.svg), -o-linear-gradient(right, #252525, #252525 50%, #a0c07b 50%, #a0c07b);
+    background-image: url(../assets/icons/Header-Subscriptions-new-blue.svg), linear-gradient(270deg, #252525, #252525 50%, #a0c07b 0, #a0c07b)
 }
 #nav_comments a {
     background-image: url(../assets/icons/Header-Comments.svg), -webkit-gradient(linear, right top, left top, from(#252525), color-stop(50%, #252525), color-stop(50%, #a0c07b), to(#a0c07b));
@@ -1931,17 +1938,19 @@ strong.mature + strong + br + a {
     background-image: url(../assets/icons/Header-Friends.svg), -o-linear-gradient(right, #252525, #252525 50%, #a0c07b 50%, #a0c07b);
     background-image: url(../assets/icons/Header-Friends.svg), linear-gradient(270deg, #252525, #252525 50%, #a0c07b 0, #a0c07b)
 }
+
+
+#nav_notifications a {
+    background-image: url(../assets/icons/Header-Notifications-read.svg), -webkit-gradient(linear, right top, left top, from(#252525), color-stop(50%, #252525), color-stop(50%, #a0c07b), to(#a0c07b));
+    background-image: url(../assets/icons/Header-Notifications-read.svg), -webkit-linear-gradient(right, #252525, #252525 50%, #a0c07b 0, #a0c07b);
+    background-image: url(../assets/icons/Header-Notifications-read.svg), -o-linear-gradient(right, #252525, #252525 50%, #a0c07b 50%, #a0c07b);
+    background-image: url(../assets/icons/Header-Notifications-read.svg), linear-gradient(270deg, #252525, #252525 50%, #a0c07b 0, #a0c07b)
+}
 #nav_better a {
     background-image: url(../assets/icons/Header-Better.svg), -webkit-gradient(linear, right top, left top, from(#252525), color-stop(50%, #252525), color-stop(50%, #a0c07b), to(#a0c07b));
     background-image: url(../assets/icons/Header-Better.svg), -webkit-linear-gradient(right, #252525, #252525 50%, #a0c07b 0, #a0c07b);
     background-image: url(../assets/icons/Header-Better.svg), -o-linear-gradient(right, #252525, #252525 50%, #a0c07b 50%, #a0c07b);
     background-image: url(../assets/icons/Header-Better.svg), linear-gradient(270deg, #252525, #252525 50%, #a0c07b 0, #a0c07b)
-}
-#nav_posts a {
-    background-image: url(../assets/icons/Header-Posts.svg), -webkit-gradient(linear, right top, left top, from(#252525), color-stop(50%, #252525), color-stop(50%, #a0c07b), to(#a0c07b));
-    background-image: url(../assets/icons/Header-Posts.svg), -webkit-linear-gradient(right, #252525, #252525 50%, #a0c07b 0, #a0c07b);
-    background-image: url(../assets/icons/Header-Posts.svg), -o-linear-gradient(right, #252525, #252525 50%, #a0c07b 50%, #a0c07b);
-    background-image: url(../assets/icons/Header-Posts.svg), linear-gradient(270deg, #252525, #252525 50%, #a0c07b 0, #a0c07b)
 }
 #nav_logchecker a {
     background-image: url(../assets/icons/Wiki-Log.svg), -webkit-gradient(linear, right top, left top, from(#252525), color-stop(50%, #252525), color-stop(50%, #a0c07b), to(#a0c07b));
@@ -1949,12 +1958,7 @@ strong.mature + strong + br + a {
     background-image: url(../assets/icons/Wiki-Log.svg), -o-linear-gradient(right, #252525, #252525 50%, #a0c07b 50%, #a0c07b);
     background-image: url(../assets/icons/Wiki-Log.svg), linear-gradient(270deg, #252525, #252525 50%, #a0c07b 0, #a0c07b)
 }
-#nav_subscriptions.new-subscriptions a {
-    background-image: url(../assets/icons/Header-Subscriptions-new-blue.svg), -webkit-gradient(linear, right top, left top, from(#252525), color-stop(50%, #252525), color-stop(50%, #a0c07b), to(#a0c07b));
-    background-image: url(../assets/icons/Header-Subscriptions-new-blue.svg), -webkit-linear-gradient(right, #252525, #252525 50%, #a0c07b 0, #a0c07b);
-    background-image: url(../assets/icons/Header-Subscriptions-new-blue.svg), -o-linear-gradient(right, #252525, #252525 50%, #a0c07b 50%, #a0c07b);
-    background-image: url(../assets/icons/Header-Subscriptions-new-blue.svg), linear-gradient(270deg, #252525, #252525 50%, #a0c07b 0, #a0c07b)
-}
+
 #nav_useredit a {
     background-image: url(../assets/icons/Header-Posts.svg), -webkit-gradient(linear, right top, left top, from(#252525), color-stop(50%, #252525), color-stop(50%, #a0c07b), to(#a0c07b));
     background-image: url(../assets/icons/Header-Posts.svg), -webkit-linear-gradient(right, #252525, #252525 50%, #a0c07b 0, #a0c07b);
@@ -1967,6 +1971,96 @@ strong.mature + strong + br + a {
     background-image: url(../assets/icons/Header-Posts.svg), -o-linear-gradient(right, #252525, #252525 50%, #a0c07b 50%, #a0c07b);
     background-image: url(../assets/icons/Header-Posts.svg), linear-gradient(270deg, #252525, #252525 50%, #a0c07b 0, #a0c07b)
 }
+*/
+
+#nav_inbox a {
+    background-image: url(), -webkit-gradient(linear, right top, left top, from(#252525), color-stop(50%, #252525), color-stop(50%, #a0c07b), to(#a0c07b));
+    background-image: url(), -webkit-linear-gradient(right, #252525, #252525 50%, #a0c07b 0, #a0c07b);
+    background-image: url(), -o-linear-gradient(right, #252525, #252525 50%, #a0c07b 50%, #a0c07b);
+    background-image: url(), linear-gradient(270deg, #252525, #252525 50%, #a0c07b 0, #a0c07b)
+}
+#nav_staffinbox a {
+    background-image: url(), -webkit-gradient(linear, right top, left top, from(#252525), color-stop(50%, #252525), color-stop(50%, #a0c07b), to(#a0c07b));
+    background-image: url(), -webkit-linear-gradient(right, #252525, #252525 50%, #a0c07b 0, #a0c07b);
+    background-image: url(), -o-linear-gradient(right, #252525, #252525 50%, #a0c07b 50%, #a0c07b);
+    background-image: url(), linear-gradient(270deg, #252525, #252525 50%, #a0c07b 0, #a0c07b)
+}
+#nav_uploaded a {
+    background-image: url(), -webkit-gradient(linear, right top, left top, from(#252525), color-stop(50%, #252525), color-stop(50%, #a0c07b), to(#a0c07b));
+    background-image: url(), -webkit-linear-gradient(right, #252525, #252525 50%, #a0c07b 0, #a0c07b);
+    background-image: url(), -o-linear-gradient(right, #252525, #252525 50%, #a0c07b 50%, #a0c07b);
+    background-image: url(), linear-gradient(270deg, #252525, #252525 50%, #a0c07b 0, #a0c07b)
+}
+#nav_bookmarks a {
+    background-image: url(), -webkit-gradient(linear, right top, left top, from(#252525), color-stop(50%, #252525), color-stop(50%, #a0c07b), to(#a0c07b));
+    background-image: url(), -webkit-linear-gradient(right, #252525, #252525 50%, #a0c07b 0, #a0c07b);
+    background-image: url(), -o-linear-gradient(right, #252525, #252525 50%, #a0c07b 50%, #a0c07b);
+    background-image: url(), linear-gradient(270deg, #252525, #252525 50%, #a0c07b 0, #a0c07b)
+}
+#nav_posts a {
+    background-image: url(), -webkit-gradient(linear, right top, left top, from(#252525), color-stop(50%, #252525), color-stop(50%, #a0c07b), to(#a0c07b));
+    background-image: url(), -webkit-linear-gradient(right, #252525, #252525 50%, #a0c07b 0, #a0c07b);
+    background-image: url(), -o-linear-gradient(right, #252525, #252525 50%, #a0c07b 50%, #a0c07b);
+    background-image: url(), linear-gradient(270deg, #252525, #252525 50%, #a0c07b 0, #a0c07b)
+}
+#nav_subscriptions a {
+    background-image: url(), -webkit-gradient(linear, right top, left top, from(#252525), color-stop(50%, #252525), color-stop(50%, #a0c07b), to(#a0c07b));
+    background-image: url(), -webkit-linear-gradient(right, #252525, #252525 50%, #a0c07b 0, #a0c07b);
+    background-image: url(), -o-linear-gradient(right, #252525, #252525 50%, #a0c07b 50%, #a0c07b);
+    background-image: url(), linear-gradient(270deg, #252525, #252525 50%, #a0c07b 0, #a0c07b)
+}
+#nav_subscriptions.new-subscriptions a {
+    background-image: url(), -webkit-gradient(linear, right top, left top, from(#252525), color-stop(50%, #252525), color-stop(50%, #a0c07b), to(#a0c07b));
+    background-image: url(), -webkit-linear-gradient(right, #252525, #252525 50%, #a0c07b 0, #a0c07b);
+    background-image: url(), -o-linear-gradient(right, #252525, #252525 50%, #a0c07b 50%, #a0c07b);
+    background-image: url(), linear-gradient(270deg, #252525, #252525 50%, #a0c07b 0, #a0c07b)
+}
+#nav_comments a {
+    background-image: url(), -webkit-gradient(linear, right top, left top, from(#252525), color-stop(50%, #252525), color-stop(50%, #a0c07b), to(#a0c07b));
+    background-image: url(), -webkit-linear-gradient(right, #252525, #252525 50%, #a0c07b 0, #a0c07b);
+    background-image: url(), -o-linear-gradient(right, #252525, #252525 50%, #a0c07b 50%, #a0c07b);
+    background-image: url(), linear-gradient(270deg, #252525, #252525 50%, #a0c07b 0, #a0c07b)
+}
+#nav_friends a {
+    background-image: url(), -webkit-gradient(linear, right top, left top, from(#252525), color-stop(50%, #252525), color-stop(50%, #a0c07b), to(#a0c07b));
+    background-image: url(), -webkit-linear-gradient(right, #252525, #252525 50%, #a0c07b 0, #a0c07b);
+    background-image: url(), -o-linear-gradient(right, #252525, #252525 50%, #a0c07b 50%, #a0c07b);
+    background-image: url(), linear-gradient(270deg, #252525, #252525 50%, #a0c07b 0, #a0c07b)
+}
+
+
+#nav_notifications a {
+    background-image: url(), -webkit-gradient(linear, right top, left top, from(#252525), color-stop(50%, #252525), color-stop(50%, #a0c07b), to(#a0c07b));
+    background-image: url(), -webkit-linear-gradient(right, #252525, #252525 50%, #a0c07b 0, #a0c07b);
+    background-image: url(), -o-linear-gradient(right, #252525, #252525 50%, #a0c07b 50%, #a0c07b);
+    background-image: url(), linear-gradient(270deg, #252525, #252525 50%, #a0c07b 0, #a0c07b)
+}
+#nav_better a {
+    background-image: url(), -webkit-gradient(linear, right top, left top, from(#252525), color-stop(50%, #252525), color-stop(50%, #a0c07b), to(#a0c07b));
+    background-image: url(), -webkit-linear-gradient(right, #252525, #252525 50%, #a0c07b 0, #a0c07b);
+    background-image: url(), -o-linear-gradient(right, #252525, #252525 50%, #a0c07b 50%, #a0c07b);
+    background-image: url(), linear-gradient(270deg, #252525, #252525 50%, #a0c07b 0, #a0c07b)
+}
+#nav_logchecker a {
+    background-image: url(), -webkit-gradient(linear, right top, left top, from(#252525), color-stop(50%, #252525), color-stop(50%, #a0c07b), to(#a0c07b));
+    background-image: url(), -webkit-linear-gradient(right, #252525, #252525 50%, #a0c07b 0, #a0c07b);
+    background-image: url(), -o-linear-gradient(right, #252525, #252525 50%, #a0c07b 50%, #a0c07b);
+    background-image: url(), linear-gradient(270deg, #252525, #252525 50%, #a0c07b 0, #a0c07b)
+}
+
+#nav_useredit a {
+    background-image: url(), -webkit-gradient(linear, right top, left top, from(#252525), color-stop(50%, #252525), color-stop(50%, #a0c07b), to(#a0c07b));
+    background-image: url(), -webkit-linear-gradient(right, #252525, #252525 50%, #a0c07b 0, #a0c07b);
+    background-image: url(), -o-linear-gradient(right, #252525, #252525 50%, #a0c07b 50%, #a0c07b);
+    background-image: url(), linear-gradient(270deg, #252525, #252525 50%, #a0c07b 0, #a0c07b)
+}
+#nav_logout a {
+    background-image: url(), -webkit-gradient(linear, right top, left top, from(#252525), color-stop(50%, #252525), color-stop(50%, #a0c07b), to(#a0c07b));
+    background-image: url(), -webkit-linear-gradient(right, #252525, #252525 50%, #a0c07b 0, #a0c07b);
+    background-image: url(), -o-linear-gradient(right, #252525, #252525 50%, #a0c07b 50%, #a0c07b);
+    background-image: url(), linear-gradient(270deg, #252525, #252525 50%, #a0c07b 0, #a0c07b)
+}
+
 #userinfo_major li {
     display: inline-block
 }
