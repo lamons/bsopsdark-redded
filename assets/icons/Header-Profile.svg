@@ -5,6 +5,6 @@
 <style type="text/css">
 	.st0{fill:none;stroke:#E6E6E6;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round;}
 </style>
-<path class="st0" d="M26.2,27.9v-2.6c0-2.9-2.4-5.3-5.3-5.3h-9.4c-3,0-5.3,2.4-5.3,5.3v2.6"/>
-<ellipse class="st0" cx="16.2" cy="9.4" rx="5.3" ry="5.3"/>
+<path class="st0" d="M26.2,26.4v-2.1c0-2.4-2.4-4.3-5.3-4.3h-9.4c-3,0-5.3,2-5.3,4.3v2.1"/>
+<ellipse class="st0" cx="16.2" cy="10.9" rx="5.3" ry="5.3"/>
 </svg>
