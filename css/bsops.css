@@ -4694,7 +4694,7 @@ table.staff {
 }
 .torrent_table tr.group,
 .torrent_table tr.torrent {
-    background: #191a1b;
+    background: #141516;
     -webkit-box-shadow: 0 -6px 5px -5px rgba(0, 0, 0, .4);
     box-shadow: 0 -6px 5px -5px rgba(0, 0, 0, .4)
 }
