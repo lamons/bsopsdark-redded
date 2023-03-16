@@ -3764,6 +3764,7 @@ table.forum_post .colhead_dark td .go_to_top {
     text-align: center;
     padding-left: 4px;
     padding-right: 8px;
+    font-size: 16px;
 }
 table.forum_post .colhead_dark td > div {
     cursor: auto;
