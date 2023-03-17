@@ -4810,7 +4810,7 @@ table.staff {
 }
 /*Color for Edition, WEB Catalog number etc */
 .torrent_table tr.edition td {
-    color: #cee4b4!important;
+    color: #fcafc0!important;
     padding: 0;
     border-bottom: 1px solid #252525;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, .4)
