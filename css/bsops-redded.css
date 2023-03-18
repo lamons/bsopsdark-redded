@@ -899,7 +899,7 @@ select:focus,
 /* Search Bars color thing */
 textarea:focus {
     outline: none;
-    border: 1px solid #a6be82!important;
+    border: 1px solid #c66e4e!important;
     color: #ccc
 }
 input[type=password]:invalid,
