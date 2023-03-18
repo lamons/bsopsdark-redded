@@ -3712,7 +3712,7 @@ table.forum_post {
     box-shadow: 0 0 6px rgba(0, 0, 0, .25);
     margin: 10px 0 20px
 }
-table.forum_post .colhead_dark td .go_to_top,
+/*table.forum_post .colhead_dark td .go_to_top,*/
 table.forum_post .colhead_dark td .post_id,
 table.forum_post .colhead_dark td a[id*=quote],
 table.forum_post .colhead_dark td div[style="float: right;"]:last-of-type > a:first-of-type {
@@ -3730,7 +3730,7 @@ table.forum_post .colhead_dark td div[style="float: right;"]:last-of-type > a:fi
     vertical-align: top;
     width: 16px
 }
-table.forum_post .colhead_dark td .go_to_top:hover,
+/*table.forum_post .colhead_dark td .go_to_top:hover,*/
 table.forum_post .colhead_dark td .post_id:hover,
 table.forum_post .colhead_dark td a[id*=quote]:hover,
 table.forum_post .colhead_dark td div[style="float: right;"]:last-of-type > a:first-of-type:hover {
@@ -3748,11 +3748,11 @@ table.forum_post .colhead_dark td a[id*=quote] {
 table.forum_post .colhead_dark td div[style="float: right;"]:last-of-type > a:first-of-type {
     background-image: url(../assets/post_icons/report-opsdark.png)
 }
-table.forum_post .colhead_dark td .go_to_top {
+/*table.forum_post .colhead_dark td .go_to_top {
     float: right;
     margin: 0 0 0 -4px;
     background-image: url(../assets/post_icons/top-opsdark.png)
-}
+}*/
 .colhead_dark strong { font-weight: normal; }
 .colhead_dark a { 
     color: #cbcbd1; }
@@ -3786,8 +3786,8 @@ table.forum_post .colhead_dark td > div {
     color: #ffffff;
 }
 .forum_post.forum_unread .colhead_dark td:before {
-    content: "• New post •";
-    background-color: #be3a34;
+    content: "• Unread •";
+    background-color: #212324;
     border-radius: 10px;
     padding: 2px 8px;
     margin-left: 10px;
