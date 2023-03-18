@@ -5394,9 +5394,9 @@ span.remove_bookmark a:hover {
     text-align: center;
     width: 100%!important
 }
-#user table.recent:nth-of-type(3) tr:nth-of-type(2) td {
+/*#user table.recent:nth-of-type(3) tr:nth-of-type(2) td {
 padding-bottom:0 !important;
-}
+}*/
 #user table.recent img,
 #user table.recent tr:nth-of-type(2) a {
     -webkit-box-sizing: border-box;
