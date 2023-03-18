@@ -3782,12 +3782,12 @@ table.forum_post .colhead_dark td > div {
     background: #c66e4e linear-gradient(0deg, #1b8268 0, #1a4b3f);
     border-bottom: 1px solid #2e5e57;
     */
-    background: #8a2a2b;
+    background: #572d2d;
     color: #ffffff;
 }
 .forum_post.forum_unread .colhead_dark td:before {
     content: "• New post •";
-    background-color: #7caa47;
+    background-color: #be3a34;
     border-radius: 10px;
     padding: 2px 8px;
     margin-left: 10px;
